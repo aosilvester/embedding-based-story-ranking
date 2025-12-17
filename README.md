@@ -1,6 +1,6 @@
 # embedding-based-story-ranking
 
-An Python project for generating stories based on given topics useing a large language model (LLM) and ranking them based on semantic relevance using SentenceTransformers.
+A Python project for generating stories based on given topics using a large language model (LLM) and ranking them based on semantic relevance using SentenceTransformers.
 
 This project leverages GPU acceleration when available and is designed for reproducible setups with `uv`.
 
