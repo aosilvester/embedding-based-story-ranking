@@ -1,0 +1,23 @@
+[project]
+name = "embedding-based-story-ranking"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+dependencies = [
+    "numpy<2",
+
+    # PyTorch GPU packages (CUDA 12.1)
+    "torch==2.2.0+cu121",
+    "torchvision==0.17.0+cu121",
+    "torchaudio==2.2.0+cu121",
+
+    # Hugging Face and other ML dependencies
+    "transformers>=4.57.1",
+    "sentence-transformers>=5.1.2",
+    "accelerate>=1.11.0",
+    "hf-xet>=1.2.0",
+]
+[[tool.uv.index]]
+name = "pytorch-cu121"
+url = "https://download.pytorch.org/whl/cu121"
